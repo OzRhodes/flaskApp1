@@ -1,5 +1,5 @@
 from . import db
-from flash_login import UserMixin
+from flask_login import UserMixin
 from sqlalchemy.sql import func
 
 class User(db.Model, UserMixin):
